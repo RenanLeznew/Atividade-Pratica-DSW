@@ -1,0 +1,36 @@
+body{
+    background-color: #DDDDDD;
+}
+
+form{
+    background-color: #FFFFFF;
+    width: 500px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+legend{
+    color:black;
+    font-weight:bold;
+}
+
+label{
+    position: relative;
+    width: 120px;
+    left: 10px;
+    display: inline-block;
+}
+
+fieldset{
+    background-color: #FFFFFF;
+    width: 500px;
+}
+
+.fields{
+    position: relative;
+    left: 20px;
+    width: 250px;
+}
+
+.buttonInput{
+    width: 100px;
+}
