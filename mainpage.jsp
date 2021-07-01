@@ -2,9 +2,9 @@
     Document   : exercicio 3
     Created on : May 18, 2021, 3:05:44 PM
     Author     : renan
-    REMEMBER TO UPDATE DE WARPACKAGE IN CASE IT DOES NOT WORK
+    ssss
+    REMEMBER TO UPDATE THE WARPACKAGE IN CASE IT DOES NOT WORK
 --%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
