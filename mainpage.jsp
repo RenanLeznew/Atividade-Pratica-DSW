@@ -2,7 +2,6 @@
     Document   : exercicio 3
     Created on : May 18, 2021, 3:05:44 PM
     Author     : renan
-    ssss
     REMEMBER TO UPDATE THE WARPACKAGE IN CASE IT DOES NOT WORK
 --%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -24,7 +23,7 @@
         <fieldset>
             <legend>Conta</legend>
             <form name="Holder" action="account.jsp">
-                Titular: <input class="field" type="text" name="Holder" value="" size="30">
+                Titularr: <input class="field" type="text" name="Holder" value="" size="30">
             <br>
                 Numero: <input class="field" type="number" name="Number" value="" min="1">
             <br>
