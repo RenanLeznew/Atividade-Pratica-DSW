@@ -1,9 +1,9 @@
 <%-- 
     Document   : exercicio 3
     Created on : May 18, 2021, 3:05:44 PM
-    Author     : renan
-    REMEMBER TO UPDATE THE WARPACKAGE IN CASE IT DOES NOT WORK
+    Authors     : Lucas Aguiar Cera e Renan Wenzel 
 --%>
+
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -15,24 +15,22 @@
     <body>
         <fieldset>
             <legend> Busca de Conta </legend>
-            <form name="findAccount" action="search.jsp">
+            <form name="findAccount" action="processing.jsp">
                 Operador: <input class="field" type="text" name="Operator" value="" size="30">
             <br>
-            </form>
         </fieldset>
         <fieldset>
             <legend>Conta</legend>
-            <form name="Holder" action="account.jsp">
-                Titularr: <input class="field" type="text" name="Holder" value="" size="30">
+                Titular: <input class="field" type="text" name="Holder" value="" size="30">
             <br>
-                Numero: <input class="field" type="number" name="Number" value="" min="1">
+                Número: <input class="field" type="number" name="Number" value="" min="1">
             <br>
                 Saldo: <input class="field" type="number" name="accountBalance" value="">
             <br>
-                Valor: <input class="field" type="number" name="accountBalance" value="" min="0">
+                Valor: <input class="field" type="number" name="accountValue" value="" min="0">
             <br>
-            <input class="buttonInput" type="submit" value="Depositar" name="deposit">
-            <input class="buttonInput" type="submit" value="Sacar" name="withdraw">
+            <input class="buttonInput" type="submit" value="Depositar" name="buttonClickable">
+            <input class="buttonInput" type="submit" value="Sacar" name="buttonClickable">
             </form>
         </fieldset>
     </body>

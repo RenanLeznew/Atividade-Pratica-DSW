@@ -27,6 +27,7 @@ fieldset{
 
 .fields{
     position: relative;
+    align-items: center;
     left: 20px;
     width: 250px;
 }
